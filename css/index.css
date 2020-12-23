@@ -1,0 +1,267 @@
+
+
+html, body, head {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.938);
+}
+
+/*************************** Nav ********************/
+
+.navbar-nav {
+    margin-left: 3em;
+
+}
+.navbar{
+        background-color: transparent;
+    position: relative;
+    z-index: 3;
+}
+.nav-link{
+    font-size: 13px;
+}
+.nav-item2{
+    color: black;
+}
+.btn-outline-success {
+    color: gainsboro;
+    border-color: gainsboro;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 7%;
+}
+.form-inline {
+    margin-left: 2.7em;
+}
+
+
+/**************************Adjusting**************************/
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+      margin-right: 1em;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+    }
+    
+ @media only screen and (max-width: 576px) {
+   body {
+    background-color: rosybrown;
+  }
+     }
+@media only screen and (max-width: 320px) {
+
+     body {
+    background-color: black;
+  }
+    .site{
+        height: 200px;
+    }
+    
+}
+
+     
+
+ 
+/*************************** Main ********************/
+
+.main1{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.site{
+    height: 710px;
+}
+.content{
+    background-position: center;
+    background-image: url(../images/backGame.jpeg);
+    background-repeat: no-repeat;
+    height: 51em;
+    background-attachment: fixed;
+}
+.row{
+    padding-top: 10em;
+}
+.content-caption {
+    margin-left: 17em;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 5em;
+}
+
+/*************************** Registration ********************/
+legend {
+    color: skyblue;
+    font-family: inherit;
+    font-size: 30px;
+    padding-top: 0;
+}
+ 
+
+/*************************** Footer ********************/
+
+
+.footer {
+    display: block;
+    
+}
+#footerend{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+
+/*************************** CHECKOUT ********************/
+.checkmain{
+    
+    background-color: gainsboro;
+    
+}
+
+.row {
+    margin-left: 0.5em;
+     padding-top: 2em;
+    
+}
+
+.mb-3 {
+    margin-left: 1em;
+}
+
+.form-check {
+    margin-left: 1.6em;
+}
+
+
+
+.col-50 {
+    padding-left: 1em;
+}
+
+/******************************  form  *******************************/
+
+#form1 {
+    margin-left: 1.5em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+#form2 {
+     margin-left: 1.5em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.div1 {
+    margin-left: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.btn1
+{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    padding-bottom: 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    
+}
+
+.btnfull{
+    padding-left: 1.1em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container {
+    color: aliceblue;
+}
+
+
+/******************************Products******************************/
+h11{
+    font-size: 30px;
+    color: gold;
+}
+#price {
+  color: grey;
+  font-size: 18px;
+}
+.col {
+    padding: 1em;
+}
+
+.card-text {
+    color: black;
+}
+
+.btn-outline-secondary {
+    direction: ltr;
+}
+
+
+
+.card-text {
+    direction: ltr;
+    text-align: left;
+}
+
+/*************************items at checkout*********************/
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+    margin-left: 6em;
+    margin-top: 8.5em;
+      padding: 0 16px;
+
+}
+
+/**********************************  About  ***********************/
+.card1{
+    padding-top: 7em;
+    background-color: darkgrey;
+    color: black;
+    padding-bottom: 27em;
+}
+.card-text {
+    color: black;
+}
+
+.thirdSection {
+    padding-top: 4em;
+}
+
+
+/**********************************  contact  ***********************/
+
+
+.table {
+     margin-top: 4%;
+    margin-left: 12%;
+    width: 80%;
+    background-color: darkgrey;
+    color: black;
+}
+.form2{
+    margin-left: 7%;
+}
+legend2 {
+    color: gainsboro;
+    font-family: inherit;
+    font-size: 30px;
+    padding-top: 0;
+}
+
+
+
+
+
